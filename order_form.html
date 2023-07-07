@@ -1,0 +1,64 @@
+<head>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<form action="https://formsubmit.co/hitmansron@gmail.com" method="POST">
+<h1><i class="fas fa-mug-hot"></i> Order Form</h1>
+    <table class="rwd-table">
+      <tr>
+        <th>Coffee Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td data-th="title">Hot Coffee</td>
+        <td data-th="price">Rs. 45</td>
+        <td data-th="quantity"><input type="number" id="qty1" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Cold Coffee</td>
+        <td data-th="price">Rs. 90</td>
+        <td data-th="quantity"><input type="number" id="qty2" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Espresso</td>
+        <td data-th="price">Rs. 100</td>
+        <td data-th="quantity"><input type="number" id="qty3" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Caramel Macchiato</td>
+        <td data-th="price">Rs. 80</td>
+        <td data-th="quantity"><input type="number" id="qty3" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Flat White</td>
+        <td data-th="price">Rs. 75</td>
+        <td data-th="quantity"><input type="number" id="qty3" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Frappe</td>
+        <td data-th="price">Rs. 80</td>
+        <td data-th="quantity"><input type="number" id="qty3" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Cafe Mocha</td>
+        <td data-th="price">Rs. 70</td>
+        <td data-th="quantity"><input type="number" id="qty3" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Vanilla Frappuccino</td>
+        <td data-th="price">Rs. 90</td>
+        <td data-th="quantity"><input type="number" id="qty3" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+    </table>
+    
+    <p>&larr; Enter The Quantities & Hit Total Cost To Get The Price. &rarr;</p>
+    <p>&larr; Click on Submit Order for placing your valuable order. &rarr;</p>
+
+    <button onclick="total()" class="button" style="padding-left:48px;margin-left:40px;">Total Cost</button>
+    <button onclick="submit()" class="button" action="https://formsubmit.co/hitmansron@gmail.com" method="POST">Submit Order</button>
+    <div class="result" id="total_cost" style="margin-left:40px;">Rs. 0.00</div>
+  </form>    
+
+<p class="credits"><a href="https://digitalforge.qa">Web Design</a> managed by <br><a href="https://www.crushcoffee.com">Shivam Netak</a></p>
+<script src="form_js.js">
+</script>
